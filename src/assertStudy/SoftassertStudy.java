@@ -10,7 +10,7 @@ public class SoftassertStudy {
 	public void TC1() {
 		String m="abc";
 		String b="abcd";
-		
+		String a="kasjacab";
 		
 		obj.assertEquals(m, b,"String is not Equal");
 	
