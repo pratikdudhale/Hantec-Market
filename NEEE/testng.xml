@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGkeywords.InvocationCountStudy">
+      <methods>
+      <include name="f2"></include>
+      </methods>
+      </class>
+      <class name="testngnew.Kitecheck">
+      <methods> <include name="afterMethod">
+      </include>
+      </methods>
+     
+      </class>
+      <class name="testNGkeywords.PriorityKeyword"/>
+      <class name="testngnew.AnnotationStudy"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
