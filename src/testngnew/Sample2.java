@@ -5,11 +5,11 @@ import org.testng.annotations.Test;
 
 public class Sample2 {
   
-	@Test
+	@Test(dependsOnMethods="demo3")
  
   public void demo2() {
 Reporter.log("HI Good Mornong open Seleniium",true);
-
+System.out.println("new changes");
 }
 	@Test
 	 
